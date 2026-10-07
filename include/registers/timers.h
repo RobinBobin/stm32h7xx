@@ -33,8 +33,6 @@
 /* TIM_PSC */
 #define TIM_PSC_OFFSET  0x28
 
-#define TIM_PSC_1MS   63999
-
 /* TIM_ARR */
 #define TIM_ARR_OFFSET  0x2C
 
