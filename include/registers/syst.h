@@ -1,0 +1,6 @@
+#define SYST_BASE   0xE000E010
+
+#define SYST_CSR_OFFSET       0x00
+#define SYST_CSR_RESET_VALUE  0x00000004
+
+#define SYST_RVR_OFFSET   0x04
