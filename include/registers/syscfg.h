@@ -5,9 +5,7 @@
 #define SYSCFG_PMCR         (SYSCFG_BASE + SYSCFG_PMCR_OFFSET)
 
 /* PMCR_EPIS */
-#define SYSCFG_PMCR_EPIS_OFFSET   21
-
-#define SYSCFG_PMCR_EPIS_RMII     4
+#define SYSCFG_PMCR_EPIS_RMII   (4 << 21)
 
 /* EXTICR */
 #define SYSCFG_EXTICR_GPIOA   0
@@ -35,5 +33,5 @@
 #define SYSCFG_CCCSR_OFFSET   0x20
 #define SYSCFG_CCCSR          (SYSCFG_BASE + SYSCFG_CCCSR_OFFSET)
 
-#define SYSCFG_CCCSR_EN     (1 << 1)
+#define SYSCFG_CCCSR_EN     (1 << 0)
 #define SYSCFG_CCCSR_READY  (1 << 8)
